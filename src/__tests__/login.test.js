@@ -1,7 +1,6 @@
 /* eslint-disable jest/no-conditional-expect */
 
 import { login } from '../js/api/auth/login'
-import { save } from '../js/storage'
 
 let localStorageMock = {}
 const mockLocalStorage = {
