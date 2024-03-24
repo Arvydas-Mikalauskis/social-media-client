@@ -1,3 +1,4 @@
+/* eslint-disable jest/no-conditional-expect */
 import { logout } from '../js/api/auth/logout'
 
 describe('logout function', () => {
