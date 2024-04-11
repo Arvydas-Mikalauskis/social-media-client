@@ -39,3 +39,5 @@ describe('User Login Functionality', () => {
     cy.get('#loginModal').should('be.visible')
   })
 })
+
+// I don't have valid credentials to test logout function, my school email does not work when I try to register on the noroff social media app, I get error "There was a problem creating your account" and 400 network error on console "register.js:5 POST https://nf-api.onrender.com/api/v1/social/auth/register 400 (Bad Request)" Thats why all my test are written with fake mock ups.
