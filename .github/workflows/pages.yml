@@ -38,7 +38,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
          start: npm start 
-         wait-on: 'http://localhost:3000' 
+         wait-on: 'https://spontaneous-sundae-4520ce.netlify.app/' 
          wait-on-timeout: 300 
       - name: Build SASS
         run: npm run build
